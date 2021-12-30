@@ -1,0 +1,29 @@
+package selfprogramming;
+import java.util.Scanner;
+
+public class Slide20 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double[] sales = new double[10];
+		int index, maxIndex;
+		double largestSale;
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter elements in array : ");
+		
+		for (index = 0; index<sales.length; index++)
+			sales[index] = scan.nextDouble();
+
+		maxIndex = 0;
+
+		for(index = 1; index<sales.length;index++) 
+		   if (sales[maxIndex] < sales[index])
+		       maxIndex = index;
+		largestSale = sales[maxIndex];
+		System.out.println("Largest element is : " + largestSale);
+
+
+	}
+
+}
