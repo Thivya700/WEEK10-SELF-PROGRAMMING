@@ -1,0 +1,23 @@
+package selfprogramming;
+import java.util.Scanner;
+
+public class Slide18 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double[] sales = new double[10];
+		int index;
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter elements of array : ");
+
+		for (index = 0; index < sales.length;index++)
+		  sales[index] = input.nextDouble();
+
+		for(index = 0; index < sales.length;index++)
+			System.out.print(sales[index] + " ");
+
+
+
+	}
+
+}
