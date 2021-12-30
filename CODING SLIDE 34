@@ -1,0 +1,28 @@
+package selfprogramming;
+import java.util.Scanner;
+public class Slide34 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int row;
+		int col;
+		int matrix[][] = new int[3][3];
+ 
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter elements of array : ");
+		
+	for (row = 0; row < matrix.length; row++)
+	  for (col = 0; col < matrix[row].length; col++)
+	   matrix[row][col] = scan.nextInt();
+	
+	for(row=0; row<matrix.length; row++)
+    	for(col=0; col<matrix.length; col++ )
+    	{
+    		System.out.println("i = " + row + " " + " j = "+col);
+    	System.out.println("Values for matrix is " + matrix[row][col]);
+    	}
+
+
+	}
+
+}
