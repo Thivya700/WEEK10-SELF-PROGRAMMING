@@ -1,0 +1,21 @@
+package selfprogramming;
+
+public class Slide17 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double[] sales = new double[10];
+		int index;
+
+		for (index = 0; index < sales.length;index++)
+		    sales[index] = 10.00;
+		
+		for (index=0; index<sales.length; index++)
+		{
+			System.out.println("Items are: Index"+ index +" " + sales[index]);
+		}
+
+
+	}
+
+}
