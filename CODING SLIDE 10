@@ -1,0 +1,37 @@
+package selfprogramming;
+
+public class Slide10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] test = new int[5];
+		test[0] = 85;
+		test[1] = 98;
+		test[2] = 75;
+		test[3] = 87;
+		test[4] = 68;
+		
+		char[] grade = new char[5];
+		grade[0] = 'B';
+		grade[1] = 'C';
+		grade[2] = 'B';
+		grade[3] = 'A';
+		grade[4] = 'C';
+
+	
+		for(int i=0; i<test.length; i++)
+	    {
+	    	System.out.println("Items are: "+"index" + i + "="+ test[i]);
+	    }
+		
+		System.out.println("");
+		
+		for(int j= 0; j<grade.length; j++)
+		{
+			System.out.println("Items are : Index" + j + " "+ grade[j]);
+		}
+
+
+	}
+
+}
