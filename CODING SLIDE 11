@@ -1,0 +1,21 @@
+package selfprogramming;
+
+public class Slide11 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] list = new int[10];
+		list[3] = 10;
+        list[6] = 35;
+        list[5] = list[3] + list[6];
+        
+        for(int i=0; i<list.length; i++)
+        {
+        	System.out.println("Items are : index "+ i + " " + list[i]);
+        }
+
+
+
+	}
+
+}
